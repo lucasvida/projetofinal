@@ -43,3 +43,12 @@ body{
     font-weight: bolder;
     padding: 15px;
 }
+
+.titulo-h2{
+    font-size: 1.5em;
+    font-family: var(--font-titulo);
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+
