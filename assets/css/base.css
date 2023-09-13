@@ -1,0 +1,45 @@
+
+/* Import da Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600;700;900&family=Montserrat&family=Quicksand:wght@500&display=swap');
+
+:root{
+
+    /* Fontes */
+
+    --font-base:'Inter', sans-serif;
+    --font-principal:'Montserrat', sans-serif;
+    --font-titulo:'Quicksand', sans-serif;
+
+    /* Cores */
+
+    --cor-base: #ccc;
+    --cor-principal:#08C952;
+}
+
+/* Estilos Gerais */
+
+body{
+    background-color: #160440;
+    color: var(--cor-principal);
+}
+
+
+/* Estilos do Projeto */
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.container-principal{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-size: 2.5em;
+    font-family: var(--font-titulo);
+    font-weight: bolder;
+    padding: 15px;
+}
